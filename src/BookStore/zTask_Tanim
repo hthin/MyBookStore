@@ -1,0 +1,41 @@
+1-PojoKitap;
+    KitapId;static sayac seklinde 1 den baslasin.
+    kitapTuru(Enum);(Roman, Hikaye, cocuk kitabi, akademik, sinav hazirlik, dil,2 el kitaplar)
+    Kitap adi;
+    yazar adi;
+    fiyat;
+    basim yili;
+    yayinevi;
+
+2- PojoCalisan;
+    adSoyad;
+    sicilNo;
+    statü;
+
+3-PojoUye:
+    AdSoyad;
+    uyeNumarasi;
+    yas;
+
+4-üc kullanici belirensin;
+    (kullanicilar giris yaparken kullanici adi ve sifre istensin)
+    Admin girisi: admin heryere ulasmali üretilen tüm yetkilere erisebilsin.
+                        1-kitap ekle
+                       2-kitap sil
+                       3-calisan ekle,sil
+                       5-fiyat güncelle
+    Calisan girisi:
+                        1-kitap satis
+                        2- kitap listele
+                        3-uyeler listele
+                        4-  uye islemleri görüntüle
+                        5- üye sil
+    üye girisi: üye ekrani olsun. üye degilse indirimlerden yararlanamasin
+               12 yas alti müsterilere %20 indirim
+                    1-alisverise basla
+                    2-Kampanya bilgilendirme
+    üye olmadan :
+            1-alisverise basla
+            2-kampanya bilgilendirme
+            3-uye ol
+ alisverise basla: ayri bir class olabilir. alisveris sepeti olusturalim aliveris yaptikca ürün sepete eklensin.
