@@ -20,6 +20,9 @@ public class PojoKitap {
         this.yayinEvi = yayinEvi;
     }
 
+    public PojoKitap() {
+    }
+
     public int getKitapID() {
         return kitapID;
     }

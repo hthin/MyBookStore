@@ -1,13 +1,14 @@
 package BookStore;
 
 public enum Enum {
+    DENEME,
     ROMAN,
     HIKAYE,
-    COCUK_KITABI,
+    COCUKKITABI,
     AKADEMIK,
-    SINAV_HAZIRLIK,
-    YABANCI_DIL,
-    SECOND_HAND;
+    SINAVHAZIRLIK,
+    YABANCIDIL,
+    SECONDHAND;
 
 
 }
